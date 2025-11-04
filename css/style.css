@@ -196,6 +196,7 @@ button:focus {
   padding: 16px 32px;
   border: none;
   min-width: 169px;
+  height: 56px;
 }
 
 .goals-list {
@@ -206,6 +207,10 @@ button:focus {
 .goals-li {
   width: 264px;
   height: 104px;
+}
+
+.goals-h {
+  margin-bottom: 8px;
 }
 
 .goals-p {
@@ -226,12 +231,20 @@ header,
   background-color: var(--cloud);
 }
 
+.team-card {
+  border-radius: 0px 0px 4px 4px;
+}
+
+.team-container {
+  padding: 32px 0;
+}
+
 .team-h {
   line-height: 1.11;
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  padding-bottom: 72px;
+  margin-bottom: 72px;
 }
 
 .team-list {
@@ -242,12 +255,15 @@ header,
 .team-member {
   font-weight: 500;
   letter-spacing: 0.02em;
+  text-align: center;
+  margin-bottom: 8px;
 }
 
 .team-p {
   font-size: 16px;
   letter-spacing: 0.02em;
   color: #434455;
+  text-align: center;
 }
 
 .portfolio-h {
@@ -255,25 +271,33 @@ header,
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  padding-bottom: 72px;
+  margin-bottom: 72px;
 }
 
 .portfolio-list {
   display: flex;
   gap: 24px;
   flex-wrap: wrap;
+  row-gap: 48px;
 }
 
 .porfolio-item {
   width: 360px;
   height: 420px;
 }
+
+.portfolio-container {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+}
+
 .portfolio-h-card {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   padding-top: 32px;
-  padding-bottom: 8px;
+  margin-bottom: 8px;
 }
 
 .porfolio-p {
